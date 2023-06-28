@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@media (min-width: 1700px) {
+  .wrapper {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1699px) {
+  .wrapper {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .wrapper {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 100px 20px 0 20px;
+  }
+}
+
+.longText {
+  max-width: 300px;
+  color: white;
+}
+
+.filler {
+  width: 10px;
+  height: 1000px;
+}

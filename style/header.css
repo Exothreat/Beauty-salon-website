@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(180deg, #252121 0%, #ffffff00 100%);
+}
+
+.nav {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1699px) {
+  .nav {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .nav {
+    max-width: 800px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+  }
+}

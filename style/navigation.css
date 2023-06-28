@@ -1,0 +1,67 @@
+.nav__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .nav__list {
+    display: none;
+  }
+}
+
+.nav__listItem {
+  margin: 10px 20px;
+}
+
+.nav__link {
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.nav__link:hover {
+  color: #f761c5;
+}
+
+.nav__link--visit {
+  font-size: 1.2em;
+  padding: 12px;
+  border: 3px solid #f761c5;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #f761c5;
+  display: flex;
+}
+
+.nav__link--visit:hover {
+  color: white;
+}
+
+.nav__link--visitLogo {
+  width: 20px;
+}
+
+.nav__link--menu {
+  display: none;
+  cursor: pointer;
+  font-size: 2.5em;
+  background-color: transparent;
+  color: #f761c5;
+  padding: 0 15px;
+  border: 3px solid #f761c5;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .nav__link--menu {
+    display: block;
+  }
+}
+
+.nav__link--visitText {
+  padding-left: 5px;
+}
