@@ -5,6 +5,12 @@
   background-image: linear-gradient(180deg, #252121 0%, #ffffff00 100%);
 }
 
+@media (max-width: 380px) {
+  .header {
+    position: absolute;
+  }
+}
+
 .nav {
   max-width: 1500px;
   margin: 0 auto;

@@ -4,6 +4,9 @@
   color: #f761c5;
   text-decoration: none;
   margin: 20px 10px;
+
+  padding: 1px 10px;
+  border-radius: 20px;
 }
 
 @media (max-width: 767px) {
@@ -21,6 +24,10 @@
 .nav__logo--h2 {
   font-size: 0.35em;
   margin: 0;
-  padding: 0;
+  padding-left: 5px;
   color: white;
+}
+
+.nav__logoIcon {
+  width: 20px;
 }
