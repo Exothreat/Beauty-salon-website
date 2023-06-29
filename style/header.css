@@ -30,7 +30,7 @@
 @media (max-width: 767px) {
   .nav {
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 0px 20px;
   }
 }

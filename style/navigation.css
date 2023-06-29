@@ -38,7 +38,8 @@
 }
 
 .nav__link--visit:hover {
-  color: white;
+  color: #fda3df;
+  border: 3px solid #fda3df;
 }
 
 .nav__link--visitLogo {

@@ -6,6 +6,12 @@
   margin: 20px 10px;
 }
 
+@media (max-width: 767px) {
+  .nav__logo {
+    margin: 20px 0;
+  }
+}
+
 .nav__logo--h1 {
   font-size: 1.2em;
   padding: 0;
