@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Z.pazurem - Patrycja Pajkiert</title>
-    <link rel="icon" href="images/icon.png" />
+    <title>z.Pazurem - Patrycja Pajkiert</title>
+    <link rel="icon" href="/images/web-icon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,45 +18,53 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/header.css" />
-    <link rel="stylesheet" href="style/logo.css" />
-    <link rel="stylesheet" href="style/navigation.css" />
-    <link rel="stylesheet" href="style/desktop-menu.css" />
-    <link rel="stylesheet" href="style/wrapper.css" />
-    <link rel="stylesheet" href="style/footer.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/header.css" />
+    <link rel="stylesheet" href="/style/logo.css" />
+    <link rel="stylesheet" href="/style/navigation.css" />
+    <link rel="stylesheet" href="/style/desktop-menu.css" />
+    <link rel="stylesheet" href="/style/wrapper.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/gallery.css" />
   </head>
   <body class="body">
     <header class="header">
       <nav class="nav">
-        <a class="nav__logo" href="/index.html"
-          ><h1 class="nav__logo--h1">Z.Pazurem</h1>
-          <h2 class="nav__logo--h2">Patrycja Pajkiert</h2></a
-        >
+        <a class="nav__logo" href="https://exothreat.github.io/Z.pazurem/">
+          <h1 class="nav__logo--h1">
+            z.<img
+              class="nav__logoIcon"
+              src="/images/web-icon-white.png"
+            />azurem
+          </h1>
+          <h2 class="nav__logo--h2">Patrycja Pajkiert</h2>
+        </a>
         <ul class="nav__list">
-          <li class="nav__listItem"></li>
           <li class="nav__listItem">
-            <a class="nav__link" href="/contact"> Kontakt </a>
+            <a class="nav__link" href="/pages/contact"> Kontakt </a>
           </li>
           <li class="nav__listItem">
-            <a class="nav__link" href="/gallery"> Galeria </a>
+            <a class="nav__link" href="/pages/price"> Cennik </a>
           </li>
           <li class="nav__listItem">
-            <a class="nav__link nav__link--visit" href="/visit">
-              <img class="nav__link--visitLogo" src="images/booksy.png" />
+            <a class="nav__link" href="/pages/gallery.html"> Galeria </a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__link nav__link--visit" href="/pages/visit">
+              <!-- <img class="nav__link--visitLogo" src="/images/booksy.png" /> -->
               <span class="nav__link--visitText">Umów wizytę!</span>
             </a>
           </li>
         </ul>
         <div class="desktop__menu">
           <a class="desktop__menuLink desktop__menuLink--first">
-            <img class="desktop__menuImage" src="images/Phone-icon.png" />
+            <img class="desktop__menuImage" src="/images/Phone-icon.png" />
           </a>
           <a class="desktop__menuLink">
-            <img class="desktop__menuImage" src="images/Gallery-icon.png" />
+            <img class="desktop__menuImage" src="/images/Gallery-icon.png" />
           </a>
           <a class="desktop__menuLink">
-            <img class="desktop__menuImage" src="images/booksy.png" />
+            <img class="desktop__menuImage" src="/images/booksy.png" />
           </a>
         </div>
       </nav>
@@ -69,16 +77,36 @@
     <footer class="footer">
       <div class="footer__section">
         <h2 class="footer__title">Umów wizytę</h2>
-        <a class="footer__contact" href="tel:+48333666999"
-          >tel: +48 333 666 999</a
-        >
-        <a class="footer__contact" href="mailto:patka.nails@gmail.com"
-          >patka.nails@gmail.com</a
-        >
-        <h3 class="footer__subtitle">Jesteśmy dostępni na</h3>
-        <a href="https://booksy.com" target="_blank">
-          <img class="footer__booksy" src="images/Booksy-full.png" />
+        <a class="footer__contact" href="tel:+48333666999">
+          tel: +48 333 666 999
         </a>
+        <a class="footer__contact" href="mailto:patka.nails@gmail.com">
+          patka.nails@gmail.com
+        </a>
+        <h3 class="footer__subtitle">Obserwuj nas na</h3>
+        <div class="footer__social">
+          <a
+            class="footer__socialLink"
+            href="https://www.instagram.com/z_pazurem.patkanails/"
+            target="_blank"
+          >
+            <img class="footer__socialImage" src="/images/instagram-icon.png" />
+          </a>
+          <a
+            class="footer__socialLink"
+            href="https://www.facebook.com/patrycja.prucnal.9"
+            target="_blank"
+          >
+            <img class="footer__socialImage" src="/images/facebook-icon.png" />
+          </a>
+          <a
+            class="footer__socialLink"
+            href="https://www.twitter.com"
+            target="_blank"
+          >
+            <img class="footer__socialImage" src="/images/twitter-icon.png" />
+          </a>
+        </div>
       </div>
       <div class="footer__section">
         <h2 class="footer__title">Odwiedź nas</h2>
