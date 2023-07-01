@@ -2,7 +2,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: linear-gradient(180deg, #252121 0%, #ffffff00 100%);
+  background-image: linear-gradient(180deg, #181818, #18181800);
+  transition: 0.5s all;
 }
 
 @media (max-width: 380px) {
