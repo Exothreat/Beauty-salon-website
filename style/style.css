@@ -10,15 +10,15 @@ html {
 
 .body {
   font-family: "Lato", sans-serif;
-  background-image: url(../images/piwonie.jpg);
+  background-image: url(../images/kwiaty.jpg);
   background-position: top;
-  background-size: auto;
+  background-size: 1400px;
   background-repeat: no-repeat;
 }
 
 @media (min-width: 1400px) {
   .body {
-    background-size: contain;
+    background-size: cover;
   }
 }
 

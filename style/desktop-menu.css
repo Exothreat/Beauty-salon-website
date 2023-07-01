@@ -12,6 +12,13 @@
   }
 }
 
+@media (max-width: 450px) {
+  .desktop__menu {
+    max-width: 110px;
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 380px) {
   .desktop__menu {
     flex-direction: column;
@@ -27,7 +34,11 @@
   cursor: pointer;
 }
 
-@media (max-width: 380px) {
+.desktop__menuLink:hover {
+  border: 3px solid #fda3df;
+}
+
+@media (max-width: 450px) {
   .desktop__menuLink {
     margin-top: 5px;
     margin-bottom: 0;
