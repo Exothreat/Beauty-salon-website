@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>z.Pazurem - Home</title>
-    <link rel="icon" href="images/web-icon.png" />
+    <title>Z.pazurem - Galeria</title>
+    <link rel="icon" href="../images/web-icon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,38 +18,27 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/header.css" />
-    <link rel="stylesheet" href="style/logo.css" />
-    <link rel="stylesheet" href="style/navigation.css" />
-    <link rel="stylesheet" href="style/desktop-menu.css" />
-    <link rel="stylesheet" href="style/wrapper.css" />
-    <link rel="stylesheet" href="style/footer.css" />
-    <link rel="stylesheet" href="style/gallery/gallery.css" />
-    <script defer src="script/desktop-navigation.js"></script>
-    <script
-      defer
-      src="https://assets.calendly.com/assets/external/widget.js"
-    ></script>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/logo.css" />
+    <link rel="stylesheet" href="../style/navigation.css" />
+    <link rel="stylesheet" href="../style/desktop-menu.css" />
+    <link rel="stylesheet" href="../style/wrapper.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
+    <link rel="stylesheet" href="../style/gallery/gallery.css" />
   </head>
   <body class="body">
     <header class="header">
       <nav class="nav">
         <a class="nav__logo" href="https://exothreat.github.io/Z.pazurem/">
-          <h1 class="nav__logo--h1">
-            <img class="nav__logoIcon" src="images/web-icon-full.png" />
-          </h1>
+          <h1 class="nav__logo--h1">Z.Pazurem</h1>
           <h2 class="nav__logo--h2">Patrycja Pajkiert</h2>
         </a>
         <ul class="nav__list">
           <li class="nav__listItem">
             <a
               class="nav__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/contact.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/contact"
             >
               Kontakt
             </a>
@@ -57,7 +46,7 @@
           <li class="nav__listItem">
             <a
               class="nav__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/price.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/price"
             >
               Cennik
             </a>
@@ -65,56 +54,36 @@
           <li class="nav__listItem">
             <a
               class="nav__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/gallery.html"
+              href="https://exothreat.github.io/pages/Z.pazurem/gallery.html"
             >
               Galeria
             </a>
           </li>
           <li class="nav__listItem">
-            <!-- Calendly link widget begin -->
             <a
               class="nav__link nav__link--visit"
-              href=""
-              onclick="Calendly.initPopupWidget({url: 'https:/calendly.com/nor-bert-prucnal?background_color=181818&text_color=ffffff&primary_color=f761c5'});return false;"
+              href="https://exothreat.github.io/Z.pazurem/pages/calendar"
             >
-              Umów wizytę!
+              <!-- <img class="nav__link--visitLogo" src="../images/booksy.png" /> -->
+              <span class="nav__link--visitText">Umów wizytę!</span>
             </a>
-            <!-- Calendly link widget end -->
           </li>
         </ul>
         <div class="desktop__menu">
-          <a
-            class="desktop__menuLink desktop__menuLink--first"
-            href="https://exothreat.github.io/pages/Z.pazurem/contact.html"
-          >
-            <img class="desktop__menuImage" src="images/Phone-icon.png" />
+          <a class="desktop__menuLink desktop__menuLink--first">
+            <img class="desktop__menuImage" src="../images/Phone-icon.png" />
           </a>
-          <a
-            class="desktop__menuLink"
-            href="https://exothreat.github.io/pages/Z.pazurem/price.html"
-          >
-            <img class="desktop__menuImage" src="images/euro-icon.png" />
+          <a class="desktop__menuLink">
+            <img class="desktop__menuImage" src="../images/Gallery-icon.png" />
           </a>
-          <a
-            class="desktop__menuLink"
-            href="https://exothreat.github.io/pages/Z.pazurem/gallery.html"
-          >
-            <img class="desktop__menuImage" src="images/Gallery-icon.png" />
-          </a>
-          <a
-            class="desktop__menuLink"
-            href=""
-            onclick="Calendly.initPopupWidget({url: 'https:/calendly.com/nor-bert-prucnal?background_color=181818&text_color=ffffff&primary_color=f761c5'});return false;"
-          >
-            <img class="desktop__menuImage" src="images/calendar-icon.png" />
+          <a class="desktop__menuLink">
+            <img class="desktop__menuImage" src="../images/booksy.png" />
           </a>
         </div>
       </nav>
     </header>
     <main>
-      <div class="wrapper">
-        <div class="filler"></div>
-      </div>
+      <div class="wrapper"></div>
     </main>
     <footer class="footer">
       <div class="footer__section">
@@ -132,21 +101,27 @@
             href="https://www.instagram.com/z_pazurem.patkanails/"
             target="_blank"
           >
-            <img class="footer__socialImage" src="images/instagram-icon.png" />
+            <img
+              class="footer__socialImage"
+              src="../images/instagram-icon.png"
+            />
           </a>
           <a
             class="footer__socialLink"
             href="https://www.facebook.com/patrycja.prucnal.9"
             target="_blank"
           >
-            <img class="footer__socialImage" src="images/facebook-icon.png" />
+            <img
+              class="footer__socialImage"
+              src="../images/facebook-icon.png"
+            />
           </a>
           <a
             class="footer__socialLink"
             href="https://www.twitter.com"
             target="_blank"
           >
-            <img class="footer__socialImage" src="images/twitter-icon.png" />
+            <img class="footer__socialImage" src="../images/twitter-icon.png" />
           </a>
         </div>
       </div>
