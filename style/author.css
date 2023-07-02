@@ -1,0 +1,47 @@
+.author {
+  max-width: 1500px;
+  border-top: 1px solid rgb(56, 56, 56);
+  padding: 30px 40px 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1200px) and (max-width: 1699px) {
+  .author {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .author {
+    max-width: 1200px;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .author {
+    max-width: 750px;
+    margin: 0 20px;
+    padding: 30px 10px 50px;
+  }
+}
+
+.author__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.author__logo {
+  width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #f761c5;
+}
+
+.author__logoImage {
+  width: 35px;
+  margin: 10px;
+}
