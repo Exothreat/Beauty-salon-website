@@ -12,19 +12,6 @@
   }
 }
 
-@media (max-width: 450px) {
-  .desktop__menu {
-    max-width: 110px;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 360px) {
-  .desktop__menu {
-    flex-direction: column;
-  }
-}
-
 .desktop__menuLink {
   border: 3px solid #f761c5;
   border-radius: 50%;
@@ -36,18 +23,6 @@
 
 .desktop__menuLink:hover {
   border: 3px solid #fda3df;
-}
-
-@media (max-width: 450px) {
-  .desktop__menuLink {
-    margin: 5px 0;
-  }
-}
-
-@media (max-width: 360px) {
-  .desktop__menuLink--first {
-    margin-top: 15px;
-  }
 }
 
 .desktop__menuImage {

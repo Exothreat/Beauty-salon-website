@@ -6,12 +6,6 @@
   transition: 0.5s all;
 }
 
-@media (max-width: 380px) {
-  .header {
-    position: absolute;
-  }
-}
-
 .nav {
   max-width: 1500px;
   margin: 0 auto;
