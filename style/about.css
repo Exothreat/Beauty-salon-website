@@ -31,13 +31,22 @@
 .about__description {
   max-width: 600px;
   text-align: center;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .about__button {
+  width: 200px;
+  margin: 10px;
   background-color: #f761c5;
   padding: 10px;
-  border: none;
   border-radius: 10px;
+}
+
+.about__link {
   cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
 }
