@@ -1,0 +1,17 @@
+.offer {
+  display: grid;
+  color: white;
+}
+
+.offer__list {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.offer__listItem {
+  border: 2px solid #f761c5;
+  padding: 20px;
+}
