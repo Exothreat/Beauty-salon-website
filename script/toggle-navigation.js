@@ -3,9 +3,9 @@
 
   window.addEventListener("scroll", () => {
     if (window.scrollY === 0) {
-      header.style.backgroundColor = "transparent";
+      header.classList.remove("header__visible");
     } else {
-      header.style.backgroundColor = "#181818";
+      header.classList.add("header__visible");
     }
   });
 }

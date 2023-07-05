@@ -6,6 +6,10 @@
   transition: 0.5s all;
 }
 
+.header__visible {
+  background-color: #181818;
+}
+
 .nav {
   max-width: 1500px;
   margin: 0 auto;

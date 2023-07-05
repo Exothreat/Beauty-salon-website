@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/style.css" />
@@ -24,10 +24,13 @@
     <link rel="stylesheet" href="style/navigation.css" />
     <link rel="stylesheet" href="style/desktop-menu.css" />
     <link rel="stylesheet" href="style/wrapper.css" />
-    <link rel="stylesheet" href="style/footer.css" />
+    <link rel="stylesheet" href="style/about.css" />
+    <link rel="stylesheet" href="style/offer.css" />
     <link rel="stylesheet" href="style/gallery.css" />
+    <link rel="stylesheet" href="style/footer.css" />
     <link rel="stylesheet" href="style/author.css" />
-    <script defer src="script/desktop-navigation.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <script defer src="script/toggle-navigation.js"></script>
   </head>
   <body class="body">
     <header class="header">
@@ -49,7 +52,7 @@
           <li class="nav__listItem">
             <a
               class="nav__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/about.html"
             >
               Oferta
             </a>
@@ -75,7 +78,7 @@
           </a>
           <a
             class="desktop__menuLink"
-            href="https://exothreat.github.io/pages/Z.pazurem/offer.html"
+            href="https://exothreat.github.io/pages/Z.pazurem/about.html"
           >
             <img class="desktop__menuImage" src="images/offer-icon.png" />
           </a>
@@ -92,18 +95,96 @@
       </nav>
     </header>
     <main>
-      <section class="main">
-        <div class="filler-2"></div>
-      </section>
+      <section class="main__image"></section>
       <section class="offer">
-        <div class="filler">
-          <img class="offer-image" src="images/background.png" />
+        <ul class="offer__list">
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-1.jpg" />
+              <p class="offer__title">Przedłużanie rzęs</p>
+              <p class="offer__description">
+                Metodami: 1:1, 2d-3d, 4d-5d, 6d-8d
+              </p>
+            </a>
+          </li>
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-2.jpg" />
+              <p class="offer__title">Artystyczny manicure</p>
+              <p class="offer__description">
+                Przyjdź do nas, a wymalujemy Ci żyrafę na paznokciach
+              </p>
+            </a>
+          </li>
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-3.jpg" />
+              <p class="offer__title">Manicure hybrydowy</p>
+              <p class="offer__description">
+                Hybrydowo się u nas zaprezentujesz
+              </p>
+            </a>
+          </li>
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-4.jpg" />
+              <p class="offer__title">Przedłużanie żelem na szablonie</p>
+              <p class="offer__description">
+                Nic dodać, nic ująć. A właściwie to dodać długość pazurków
+              </p>
+            </a>
+          </li>
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-5.jpg" />
+              <p class="offer__title">Manicure żelowy na naturalnej płytce</p>
+              <p class="offer__description">
+                Żelki są smaczne, ale nie te na palcach. Te są ładne
+              </p>
+            </a>
+          </li>
+          <li class="offer__listItem">
+            <a
+              class="offer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+            >
+              <img class="offer__image" src="images/gallery/gallery-6.jpg" />
+              <p class="offer__title">Pedicure</p>
+              <p class="offer__description">Stoooooooopki</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <div>
+          <img class="about__image" src="images/background.png" />
         </div>
-        <div class="offer__description">
-          <h2>Sprawdź naszą ofertę</h2>
+        <div class="about__description">
+          <h2>Kilka słów o nas</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            distinctio doloremque hic quod eligendi ut. Neque, suscipit
+            pariatur. Dolore excepturi voluptates incidunt saepe molestias ullam
+            magnam harum itaque blanditiis porro.
+          </p>
+          <button class="about__button" href>Certyfikaty</button>
         </div>
       </section>
-      <div class="filler">Jakiś tekst</div>
     </main>
     <footer class="footer">
       <div class="footer__main">
@@ -183,7 +264,7 @@
           <p class="footer__paragraph">
             <a
               class="footer__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/artistic.html"
             >
               Stylizacja artystyczna paznokci
             </a>
@@ -191,23 +272,15 @@
           <p class="footer__paragraph">
             <a
               class="footer__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/hybrid.html"
             >
-              manicure hybrydowy
+              Manicure hybrydowy
             </a>
           </p>
           <p class="footer__paragraph">
             <a
               class="footer__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
-            >
-              Przedłużanie żelem na szablonie
-            </a>
-          </p>
-          <p class="footer__paragraph">
-            <a
-              class="footer__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/gel-nails.html"
             >
               Manicure żelowy na naturalnej płytce
             </a>
@@ -215,7 +288,15 @@
           <p class="footer__paragraph">
             <a
               class="footer__link"
-              href="https://exothreat.github.io/Z.pazurem/pages/offer/lashes.html"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/longer-nails.html"
+            >
+              Przedłużanie żelem na szablonie
+            </a>
+          </p>
+          <p class="footer__paragraph">
+            <a
+              class="footer__link"
+              href="https://exothreat.github.io/Z.pazurem/pages/offer/pedicure.html"
             >
               Pedicure
             </a>
@@ -237,4 +318,3 @@
     </footer>
   </body>
 </html>
-Metoda 1:1 Metoda 2d-3d Metoda 4d-5d Metoda 6d-8d
