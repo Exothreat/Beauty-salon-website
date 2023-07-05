@@ -4,6 +4,20 @@
   margin-top: 40px;
 }
 
+.offer__button {
+  max-width: 200px;
+  margin: 10px 40px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f761c5;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.offer__button:hover {
+  background-color: #f53db8;
+}
+
 .offer__list {
   list-style: none;
   margin: 0;
@@ -52,6 +66,10 @@
   flex-direction: column;
   align-items: center;
   cursor: default;
+}
+
+.offer__link--main {
+  cursor: pointer;
 }
 
 .offer__image {
