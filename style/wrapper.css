@@ -1,3 +1,41 @@
+.main {
+  background-image: url(../images/kwiaty.jpg);
+  background-position: top;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 1400px) {
+  .main {
+    background-size: cover;
+  }
+}
+
+.offer {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(90deg, pink, white);
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.offer-image {
+  height: 500px;
+}
+
+.offer__description {
+  width: 400px;
+  text-align: center;
+}
+
+.filler {
+  width: 100%;
+  height: 500px;
+}
+
 .wrapper {
   margin: 0 auto;
   margin-top: 100px;
@@ -17,7 +55,7 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .wrapper {
-    max-width: 700px;
+    max-width: 900px;
   }
 }
 
@@ -25,14 +63,4 @@
   .wrapper {
     margin: 100px 20px 0 20px;
   }
-}
-
-.longText {
-  max-width: 300px;
-  color: white;
-}
-
-.filler {
-  width: 10px;
-  height: 500px;
 }

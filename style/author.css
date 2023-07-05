@@ -1,7 +1,7 @@
 .author {
   max-width: 1500px;
   border-top: 1px solid rgb(56, 56, 56);
-  padding: 30px 40px 50px;
+  padding: 30px 40px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@
   .author {
     max-width: 750px;
     margin: 0 20px;
-    padding: 30px 10px 50px;
+    padding: 30px 10px;
   }
 }
 
