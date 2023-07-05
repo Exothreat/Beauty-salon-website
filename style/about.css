@@ -6,8 +6,26 @@
   margin-top: 40px;
 }
 
+@media (min-width: 1000px) {
+  .about {
+    justify-content: space-between;
+  }
+}
+
 .about__image {
   height: 450px;
+}
+
+@media (max-width: 1400px) {
+  .about__image--right {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__image {
+    display: none;
+  }
 }
 
 .about__description {
