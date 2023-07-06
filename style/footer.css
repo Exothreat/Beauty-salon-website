@@ -46,7 +46,7 @@
 .footer__link {
   text-decoration: none;
   color: white;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .footer__link:hover {
@@ -82,6 +82,6 @@
 
 .footer__socialImage:hover {
   background-color: #f655c1;
-  background-image: #f651c5;
-  transition: 0.4s;
+  background-image: unset;
+  transition: 0.3s;
 }
