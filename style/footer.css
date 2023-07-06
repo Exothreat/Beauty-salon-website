@@ -68,8 +68,10 @@
 }
 
 .footer__socialLink {
-  width: 40px;
-  margin: 0 2px;
+  width: 45px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__socialImage {
