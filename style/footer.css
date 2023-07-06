@@ -46,10 +46,11 @@
 .footer__link {
   text-decoration: none;
   color: white;
+  transition: 0.4s;
 }
 
 .footer__link:hover {
-  color: #bdbdbd;
+  color: #a5a5a5;
 }
 
 .footer__link--special {
