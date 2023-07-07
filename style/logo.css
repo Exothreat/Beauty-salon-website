@@ -14,7 +14,7 @@
   }
 }
 
-.nav__logo--h1 {
+.nav__logoContainer {
   font-size: 1.2em;
   padding: 0;
   margin: 0;
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 767px) {
-  .nav__logo--h1 {
+  .nav__logoContainer {
     background-image: url(../images/web-icon-white.png);
   }
 }
