@@ -1,0 +1,42 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section:nth-child(2n + 2) {
+  background-color: hsl(320, 90%, 80%);
+}
+
+.offer__image {
+  width: 300px;
+  margin: 10px;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+
+.offer__title {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  color: #f761c5;
+}
+
+.offer__description {
+  font-size: 14px;
+}
+
+.offer__description:nth-child(2n + 1) {
+  color: white;
+}
+
+.title {
+  margin-top: 100px;
+  color: #f761c5;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
