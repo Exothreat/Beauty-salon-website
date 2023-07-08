@@ -1,0 +1,7 @@
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px dashed pink;
+}
