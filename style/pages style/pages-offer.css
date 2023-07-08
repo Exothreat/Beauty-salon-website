@@ -1,3 +1,20 @@
+.offer__container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  border: 2px dashed pink;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .offer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 1fr 3fr;
+  }
+}
+
 .offer__image {
   width: 300px;
   margin: 30px;
