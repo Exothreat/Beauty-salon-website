@@ -41,7 +41,21 @@
   color: #f761c5;
 }
 
+@keyframes change-color {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: #f761c5;
+  }
+}
+
 .author__logoImage {
   width: 35px;
   margin: 10px;
+  background-color: white;
+  animation-name: change-color;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
