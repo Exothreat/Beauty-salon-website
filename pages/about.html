@@ -28,7 +28,9 @@
     <link rel="stylesheet" href="../style/pages style/pages-section.css" />
     <link rel="stylesheet" href="../style/pages style/pages-title.css" />
     <link rel="stylesheet" href="../style/pages style/pages-about.css" />
+    <link rel="stylesheet" href="../style/pages style/pages-gallery.css" />
     <script defer src="../script/toggle-navigation.js"></script>
+    <script defer src="../script/gallery.js"></script>
   </head>
   <body class="body">
     <header class="header">
@@ -155,7 +157,73 @@
         </div>
       </section>
       <section class="section">
-        <div class="container"></div>
+        <div class="container">
+          <ul class="gallery">
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-1.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-2.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-3.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-4.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-5.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="../images/gallery/gallery-6.jpg"
+                onclick="openGallery(this)"
+              />
+            </li>
+          </ul>
+          <div class="photoView">
+            <span
+              class="closeBtn"
+              onclick="this.parentElement.style.display='none'"
+            >
+              &times
+            </span>
+            <img class="photoView__image" id="expandedImg" />
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container--last">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2555.8063242111416!2d22.086676354435642!3d50.164758708430796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ce694bb731835%3A0x40ebfacafbf36e42!2sParking!5e0!3m2!1spl!2spl!4v1688906529997!5m2!1spl!2spl"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -214,11 +282,11 @@
           <p class="footer__paragraph">
             <a
               class="footer__link"
-              href="https://goo.gl/maps/f2g1D6S7XeZUPSX26"
+              href="https://goo.gl/maps/Q1HeikY9THH9LDZ68"
               target="_blank"
             >
-              Nienadówka 204<br />
-              36-052 Nienadówka
+              Adres<br />
+              Kod pocztowy, Miejscowość
             </a>
           </p>
           <h3 class="footer__subtitle">Godziny otwarcia</h3>
