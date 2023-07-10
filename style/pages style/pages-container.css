@@ -10,12 +10,21 @@
 }
 
 .container--last {
-  border-bottom: none;
+  border: none;
+}
+
+.container--map {
+  padding: 0;
+  margin: 20px;
+  border: 4px solid #f761c5;
+  border-radius: 15px;
 }
 
 .map {
-  margin: 10px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 450px;
   border: none;
+  border-radius: 15px;
 }
