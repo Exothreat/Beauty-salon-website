@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../style/pages style/pages-title.css" />
     <link rel="stylesheet" href="../style/pages style/pages-container.css" />
     <link rel="stylesheet" href="../style/pages style/pages-contact.css" />
+    <link rel="stylesheet" href="../style/pages style/pages-form.css" />
     <script defer src="../script/toggle-navigation.js"></script>
   </head>
   <body class="body">
@@ -131,12 +132,12 @@
               </a>
             </p>
             <p class="contact__paragraph">
-              <a class="contact__link" href="mailto:patka.nails@gmail.com">
-                patka.nails@gmail.com
+              <a class="contact__link" href="mailto:example@example.com">
+                example@example.com
               </a>
             </p>
             <p class="contact__paragraph">
-              <a class="contact__link contact__link--special">
+              <a class="contact__link contact__link--special" href="">
                 Umów się online!
               </a>
             </p>
@@ -154,7 +155,13 @@
           </div>
           <div class="contact__block">
             <h2 class="contact__title">Odwiedź nas</h2>
-            <p class="contact__paragraph">Adres, Kod, Miejscowość</p>
+            <a
+              class="contact__link"
+              href="https://goo.gl/maps/Q1HeikY9THH9LDZ68"
+              target="_blank"
+            >
+              Adres, Kod, Miejscowość
+            </a>
           </div>
         </div>
       </section>
@@ -176,26 +183,54 @@
             Jeśli masz jakieś pytania odnośnie naszej pracy, wyślij nam
             wiadomość poprzez formularz kontaktowy
           </div>
-          <form class="form" method="post" name="contact">
+          <form
+            class="form"
+            id="contactform"
+            action="https://formsubmit.io/send/example@example.com"
+            method="POST"
+          >
             <fieldset class="form__fieldset">
-              <input
-                type="text"
-                name="name"
-                placeholder="Imię i nazwisko"
-                required
-              />
-              <input
-                type="tel"
-                name="tel"
-                placeholder="Telefon kontaktowy"
-                required
-              />
-              <input
-                type="email"
-                name="mail"
-                placeholder="Adres e-mail"
-                required
-              />
+              <input name="_formsubmit_id" type="text" style="display: none" />
+              <p>
+                <label class="form__labelText"
+                  >Dane osobowe:
+                  <input
+                    type="text"
+                    name="nazwa"
+                    placeholder="Imię i nazwisko"
+                    required
+                  />
+                  <input
+                    type="tel"
+                    name="tel"
+                    placeholder="Telefon kontaktowy"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Adres e-mail"
+                    required
+                  />
+                </label>
+              </p>
+              <p>
+                <label class="form__labelText"
+                  >Temat:
+                  <select name="temat">
+                    <option value="oferta">Zapytanie o ofertę</option>
+                    <option value="współpraca">Współpraca</option>
+                    <option value="voucher">Realizacja voucherów</option>
+                    <option value="inne">Inne</option>
+                  </select>
+                </label>
+              </p>
+              <p>
+                <label class="form__labelText"
+                  >Wiadomość:
+                  <textarea name="wiadomość" rows="5"></textarea>
+                </label>
+              </p>
             </fieldset>
             <button class="form__button">Wyślij</button>
           </form>
@@ -212,12 +247,14 @@
             </a>
           </p>
           <p class="footer__paragraph">
-            <a class="footer__link" href="mailto:patka.nails@gmail.com">
-              patka.nails@gmail.com
+            <a class="footer__link" href="mailto:example@example.com">
+              example@example.com
             </a>
           </p>
           <p class="footer__paragraph">
-            <a class="footer__link footer__link--special"> Umów się online </a>
+            <a class="footer__link footer__link--special" href="">
+              Umów się online
+            </a>
           </p>
           <h3 class="footer__subtitle">Obserwuj nas na</h3>
           <div class="footer__social">
