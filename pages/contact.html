@@ -173,21 +173,31 @@
       <section class="section">
         <div class="container">
           <div class="form__description">
-            Jeśli masz jakieś pytania odnośnie naszej pracy lub oferty, wyślij
-            nam wiadomość poprzez formularz kontaktowy. Postaramy się
-            odpowiedzieć tak szybko jak będzie to możliwe.
+            Jeśli masz jakieś pytania odnośnie naszej pracy, wyślij nam
+            wiadomość poprzez formularz kontaktowy
           </div>
           <form class="form" method="post" name="contact">
             <fieldset class="form__fieldset">
-              <legend class="form__legend">Masz pytanie?</legend>
-              <input type="text" name="name" placeholder="Imię i nazwisko" />
               <input
-                type="number"
+                type="text"
+                name="name"
+                placeholder="Imię i nazwisko"
+                required
+              />
+              <input
+                type="tel"
                 name="tel"
                 placeholder="Telefon kontaktowy"
+                required
               />
-              <input type="email" name="mail" placeholder="Adres e-mail" />
+              <input
+                type="email"
+                name="mail"
+                placeholder="Adres e-mail"
+                required
+              />
             </fieldset>
+            <button class="form__button">Wyślij</button>
           </form>
         </div>
       </section>

@@ -13,6 +13,12 @@
   cursor: pointer;
 }
 
+@media (max-width: 767px) {
+  .gallery__item {
+    padding: 5px;
+  }
+}
+
 .gallery__image {
   max-width: 100%;
   border: 4px solid #f761c5;

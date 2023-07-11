@@ -1,11 +1,7 @@
 .nav__logo {
   font-size: 2em;
-  font-weight: bold;
   color: #f761c5;
-  text-decoration: none;
-  margin: 20px 10px;
-  padding: 1px 10px;
-  border-radius: 20px;
+  margin: 20px 0;
 }
 
 @media (max-width: 767px) {
@@ -29,7 +25,7 @@
 }
 
 .nav__logoIcon {
-  width: 170px;
+  width: 180px;
 }
 
 @media (max-width: 767px) {
