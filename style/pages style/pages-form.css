@@ -37,6 +37,10 @@
   width: 100%;
 }
 
+.form__labelText--policy {
+  font-size: 16px;
+}
+
 .form__personal {
   display: flex;
   flex-wrap: wrap;
