@@ -5,6 +5,12 @@
   margin-bottom: 0;
 }
 
+.subtitle {
+  font-size: 30px;
+  color: white;
+  margin: 50px;
+}
+
 .title__list {
   display: flex;
   color: #919191;
