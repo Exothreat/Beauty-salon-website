@@ -22,13 +22,13 @@
 }
 
 .contact__link--special {
-  padding: 5px 15px;
+  padding: 8px 15px;
   background-color: #f761c5;
   color: white;
 }
 
 .contact__link--special:hover {
-  background-color: #fc90d8;
+  background-color: #f720af;
 }
 
 .contact__title {
@@ -41,13 +41,14 @@
 
 .contact__block {
   width: 300px;
-  min-height: 200px;
+  min-height: 220px;
   margin: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 2px dashed pink;
   border-radius: 30px;
+  text-align: center;
 }
 
 .contact__block--map {

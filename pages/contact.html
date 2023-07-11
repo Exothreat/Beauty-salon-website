@@ -54,7 +54,7 @@
               class="nav__link"
               href="https://exothreat.github.io/z.Pazurem/pages/about.html"
             >
-              O nas
+              O mnie
             </a>
           </li>
           <li class="nav__listItem">
@@ -154,7 +154,7 @@
             <p class="contact__paragraph">8:00 - 14:00</p>
           </div>
           <div class="contact__block">
-            <h2 class="contact__title">Odwiedź nas</h2>
+            <h2 class="contact__title">Odwiedź mój salon</h2>
             <a
               class="contact__link"
               href="https://goo.gl/maps/Q1HeikY9THH9LDZ68"
@@ -178,10 +178,10 @@
         </div>
       </section>
       <section class="section">
-        <div class="container">
+        <div class="container container--last">
           <div class="form__description">
-            Jeśli masz jakieś pytania odnośnie naszej pracy, wyślij nam
-            wiadomość poprzez formularz kontaktowy
+            Jeśli masz jakieś pytania odnośnie oferty, wyślij wiadomość poprzez
+            formularz kontaktowy
           </div>
           <form
             class="form"
@@ -191,46 +191,64 @@
           >
             <fieldset class="form__fieldset">
               <input name="_formsubmit_id" type="text" style="display: none" />
-              <p>
-                <label class="form__labelText"
-                  >Dane osobowe:
+              <input
+                name="_redirect"
+                type="hidden"
+                id="name"
+                value="https://exothreat.github.io/z.Pazurem/pages/thanks.html"
+              />
+              <label>
+                <span class="form__labelText">Dane osobowe:</span>
+                <div class="form__personal">
                   <input
+                    class="form__input"
                     type="text"
                     name="nazwa"
                     placeholder="Imię i nazwisko"
                     required
                   />
                   <input
+                    class="form__input"
                     type="tel"
                     name="tel"
                     placeholder="Telefon kontaktowy"
                     required
                   />
                   <input
+                    class="form__input"
                     type="email"
                     name="email"
                     placeholder="Adres e-mail"
                     required
                   />
-                </label>
-              </p>
-              <p>
-                <label class="form__labelText"
-                  >Temat:
-                  <select name="temat">
+                </div>
+              </label>
+              <label class="form__labelText">
+                <div class="form__personal">
+                  <span class="form__labelText">Temat:</span>
+                  <select class="form__input form__input--select" name="temat">
                     <option value="oferta">Zapytanie o ofertę</option>
                     <option value="współpraca">Współpraca</option>
                     <option value="voucher">Realizacja voucherów</option>
                     <option value="inne">Inne</option>
                   </select>
-                </label>
-              </p>
-              <p>
-                <label class="form__labelText"
-                  >Wiadomość:
-                  <textarea name="wiadomość" rows="5"></textarea>
-                </label>
-              </p>
+                </div>
+              </label>
+              <label class="form__labelText">
+                <div class="form__personal">
+                  <span class="form__labelText">Wiadomość:</span>
+                  <textarea
+                    class="form__textArea"
+                    name="wiadomość"
+                    placeholder="Treść wiadomości"
+                    maxlength="100"
+                    required
+                  ></textarea>
+                  <span class="form__labelText--length">
+                    (maksymalnie 100 znaków)*
+                  </span>
+                </div>
+              </label>
             </fieldset>
             <button class="form__button">Wyślij</button>
           </form>
@@ -256,7 +274,7 @@
               Umów się online
             </a>
           </p>
-          <h3 class="footer__subtitle">Obserwuj nas na</h3>
+          <h3 class="footer__subtitle">Obserwuj mnie na</h3>
           <div class="footer__social">
             <a
               class="footer__socialLink"
@@ -291,7 +309,7 @@
           </div>
         </div>
         <div class="footer__section">
-          <h2 class="footer__title">Odwiedź nas</h2>
+          <h2 class="footer__title">Odwiedź mój salon</h2>
           <p class="footer__paragraph">
             <a
               class="footer__link"
@@ -313,13 +331,13 @@
           <p class="footer__paragraph">8:00 - 14:00</p>
         </div>
         <div class="footer__section">
-          <h2 class="footer__title">Nasza oferta</h2>
+          <h2 class="footer__title">Oferta</h2>
           <p class="footer__paragraph">
             <a
               class="footer__link"
               href="https://exothreat.github.io/z.Pazurem/pages/offer.html#lashes"
             >
-              Przedłużanie rzęs
+              Stylizacja rzęs
             </a>
           </p>
           <p class="footer__paragraph">
