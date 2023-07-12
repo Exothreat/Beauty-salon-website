@@ -15,6 +15,12 @@
   background-color: #ffd3db;
 }
 
+@media (max-width: 330px) {
+  .form__fieldset {
+    padding: 10px 0;
+  }
+}
+
 .form__labelText {
   width: 100%;
   display: inline-block;
