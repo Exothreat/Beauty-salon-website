@@ -5,5 +5,9 @@
 
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "flex";
+
+    photoblock.addEventListener("click", () => {
+      photoblock.style.display = "none";
+    });
   }
 }
