@@ -28,6 +28,7 @@
 
 .price__description {
   font-size: 14px;
+  margin: 5px;
 }
 
 .price__description--strong {
