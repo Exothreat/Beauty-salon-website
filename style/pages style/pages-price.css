@@ -1,0 +1,27 @@
+.price {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 2px dashed #f88498;
+  border-radius: 20px;
+  background-color: #ffeaee;
+}
+
+.price__title {
+  padding: 20px 0;
+  color: #f761c5;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price__item {
+  padding: 15px;
+  border-bottom: 2px dashed #fdb0bd;
+}
+
+.price__item--last {
+  border: none;
+}

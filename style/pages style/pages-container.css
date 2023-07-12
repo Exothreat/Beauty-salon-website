@@ -10,3 +10,10 @@
 .container--last {
   border: none;
 }
+
+.container__price {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
