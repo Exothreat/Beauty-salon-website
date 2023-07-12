@@ -9,10 +9,10 @@
 }
 
 .form__fieldset {
-  border: 2px solid #f761c5;
+  border: 2px dashed #f88498;
   border-radius: 20px;
   padding: 15px;
-  background-color: #f720af27;
+  background-color: #ffd3db;
 }
 
 .form__labelText {
