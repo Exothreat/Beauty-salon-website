@@ -44,7 +44,7 @@
   }
 }
 
-.offer__listItem {
+.offer__list-item {
   border: 2px dashed #fd8fd8;
   border-radius: 20px;
   padding: 20px;
@@ -54,7 +54,7 @@
   transition: 0.3s;
 }
 
-.offer__listItem:hover {
+.offer__list-item:hover {
   margin: 5px;
   padding: 25px;
 }
