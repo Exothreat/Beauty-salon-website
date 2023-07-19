@@ -59,27 +59,28 @@
 }
 
 .footer__link--special:hover {
-  border: 2px solid #bdbdbd;
+  border: 2px solid #ff97a9;
+  color: #ff97a9;
 }
 
 .footer__social {
   display: flex;
 }
 
-.footer__socialLink {
+.footer__social-link {
   width: 45px;
   margin: 2px;
   display: flex;
   justify-content: center;
 }
 
-.footer__socialImage {
+.footer__social-image {
   width: 40px;
   background-image: linear-gradient(180deg, #f761c5 0%, #ffffffaf 100%);
   border-radius: 10px;
 }
 
-.footer__socialImage:hover {
+.footer__social-image:hover {
   background-color: #f655c1;
   background-image: unset;
   transition: 0.3s;

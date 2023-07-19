@@ -21,13 +21,13 @@
   }
 }
 
-.form__labelText {
+.form__label-text {
   width: 100%;
   display: inline-block;
   margin: 5px 0;
 }
 
-.form__labelText--length {
+.form__label-text--length {
   font-size: 11px;
   color: #888888;
 }
@@ -44,7 +44,7 @@
   width: 100%;
 }
 
-.form__labelText--policy {
+.form__label-text--policy {
   font-size: 16px;
 }
 
@@ -53,7 +53,7 @@
   flex-wrap: wrap;
 }
 
-.form__textArea {
+.form__text-area {
   margin: 10px;
   width: 100%;
   resize: vertical;
