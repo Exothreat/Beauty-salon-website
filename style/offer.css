@@ -1,7 +1,21 @@
 .offer {
+  max-width: 1500px;
   display: grid;
   color: white;
+  margin: 0 auto;
   margin-top: 40px;
+}
+
+@media (min-width: 1200px) and (max-width: 1699px) {
+  .offer {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .offer {
+    max-width: 850px;
+  }
 }
 
 .offer__button {
@@ -21,9 +35,10 @@
 .offer__list {
   list-style: none;
   margin: 0;
-  padding: 20px 80px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
 }
 
 @media (max-width: 1400px) {
@@ -47,16 +62,13 @@
 .offer__list-item {
   border: 2px dashed #fd8fd8;
   border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   transition: 0.3s;
 }
 
 .offer__list-item:hover {
-  margin: 5px;
-  padding: 25px;
+  transform: scale(1.05);
 }
 
 .offer__link {
@@ -65,25 +77,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: default;
-}
-
-.offer__link--main {
-  cursor: pointer;
 }
 
 .offer__image {
   width: 100px;
   margin: 10px;
   border-radius: 30px;
-  border: 4px solid #fd8fd8;
+  border: 3px solid #fd8fd8;
   transition: 0.3s;
-  cursor: pointer;
 }
 
 .offer__image:hover {
-  width: 120px;
-  margin: 0;
+  border: 3px solid white;
 }
 
 .offer__title {
@@ -91,7 +96,8 @@
   padding: 10px;
   font-weight: bold;
   color: #f761c5;
-  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
 }
 
 .offer__title:hover {
@@ -100,4 +106,6 @@
 
 .offer__description {
   font-size: 14px;
+  margin: 10px;
+  text-align: center;
 }
