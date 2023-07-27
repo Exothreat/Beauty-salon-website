@@ -5,6 +5,7 @@
   background-image: linear-gradient(180deg, #202020, #20202000);
   transition: 0.3s;
   z-index: 10;
+  font-family: "Courgette", cursive;
 }
 
 .header__visible {
