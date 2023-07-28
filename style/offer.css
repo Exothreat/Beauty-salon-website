@@ -20,7 +20,7 @@
 
 .offer__button {
   max-width: 200px;
-  margin: 10px 40px;
+  margin: 20px 40px;
   padding: 10px;
   border-radius: 20px;
   background-color: #f761c5;
@@ -36,7 +36,7 @@
 .offer__list {
   list-style: none;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -70,6 +70,15 @@
 
 .offer__list-item:hover {
   transform: scale(1.05);
+  border: 2px dashed #ffb8e7;
+}
+
+.offer__list-item:hover .offer__image {
+  border: 3px solid #ffb8e7;
+}
+
+.offer__list-item:hover .offer__title {
+  color: #ffb8e7;
 }
 
 .offer__link {
@@ -88,10 +97,6 @@
   transition: 0.3s;
 }
 
-.offer__image:hover {
-  border: 3px solid white;
-}
-
 .offer__title {
   font-size: 20px;
   padding: 10px;
@@ -99,10 +104,6 @@
   color: #f761c5;
   transition: 0.3s;
   text-align: center;
-}
-
-.offer__title:hover {
-  color: white;
 }
 
 .offer__description {
