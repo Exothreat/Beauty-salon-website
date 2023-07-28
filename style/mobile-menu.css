@@ -1,10 +1,10 @@
-.desktop__menu {
+.mobile__menu {
   max-width: 300px;
   display: none;
 }
 
 @media (max-width: 767px) {
-  .desktop__menu {
+  .mobile__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -12,7 +12,7 @@
   }
 }
 
-.desktop__menu-link {
+.mobile__menu-link {
   border: 3px solid #f761c5;
   border-radius: 50%;
   margin: 20px 5px;
@@ -21,11 +21,11 @@
   cursor: pointer;
 }
 
-.desktop__menu-link:hover {
+.mobile__menu-link:hover {
   border: 3px solid #fda3df;
 }
 
-.desktop__menu-image {
+.mobile__menu-image {
   width: 20px;
   height: 20px;
   margin: 10px;
