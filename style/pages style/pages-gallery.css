@@ -6,17 +6,16 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 20px;
 }
 
 .gallery__item {
-  padding: 15px 25px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
-@media (max-width: 767px) {
-  .gallery__item {
-    padding: 5px;
-  }
+.gallery__item:hover {
+  transform: scale(1.1);
 }
 
 .gallery__image {
@@ -35,6 +34,7 @@
   background-color: #00000086;
   justify-content: center;
   align-items: center;
+  z-index: 20;
 }
 
 .photoView__image {

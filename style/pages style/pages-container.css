@@ -1,5 +1,5 @@
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   padding: 20px;
   border-bottom: 2px dashed pink;
   display: flex;
@@ -17,4 +17,30 @@
   margin-bottom: 40px;
   padding: 0;
   text-align: center;
+}
+
+@keyframes aboutSpecial {
+  0% {
+    color: violet;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+.about-special {
+  font-weight: bold;
+  animation-name: aboutSpecial;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

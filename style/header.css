@@ -15,6 +15,7 @@
 .nav {
   max-width: 1500px;
   margin: 0 auto;
+  padding-left: 10px;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -30,7 +31,6 @@
 @media (min-width: 768px) and (max-width: 1199px) {
   .nav {
     max-width: 850px;
-    padding-left: 20px;
   }
 }
 
