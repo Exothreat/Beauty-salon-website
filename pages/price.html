@@ -32,6 +32,8 @@
             href="../style/pages style/pages-container.css"
         />
         <link rel="stylesheet" href="../style/pages style/pages-price.css" />
+        <link rel="stylesheet" href="../style/popup.css" />
+        <script defer src="../script/popup.js"></script>
         <script defer src="../script/toggle-navigation.js"></script>
     </head>
     <body class="body">
@@ -79,8 +81,15 @@
                         </a>
                     </li>
                     <li class="nav__list-item">
-                        <a class="nav__link nav__link--visit" href="">
+                        <a
+                            class="nav__link nav__link--visit"
+                            onclick="openPopup()"
+                        >
                             Umów wizytę!
+                            <span class="popup" id="popup">
+                                W tym miejscu będzie dostępny kalendarz do
+                                umawiania spotkań
+                            </span>
                         </a>
                     </li>
                 </ul>
