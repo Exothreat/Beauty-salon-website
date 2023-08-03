@@ -1,36 +1,36 @@
 .price {
-  max-width: 900px;
-  display: grid;
-  grid-template-columns: 6fr 1fr;
-  list-style: none;
-  padding: 0;
-  margin: 5px;
-  border: 2px dashed #f88498;
-  border-radius: 20px;
-  background-color: #ffeaee;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+    border: 2px dashed #f88498;
+    border-radius: 20px;
+    background-color: #ffeaee;
 }
 
 .price__title {
-  padding: 20px 0;
-  color: #f51fae;
-  font-size: 24px;
-  font-weight: bold;
+    padding: 20px 0;
+    color: #f51fae;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .price__item {
-  padding: 15px;
-  border-bottom: 2px dashed #fdb0bd;
+    padding: 15px;
+    border-bottom: 2px dashed #fdb0bd;
 }
 
 .price__item--last {
-  border: none;
+    border: none;
 }
 
 .price__description {
-  font-size: 14px;
-  margin: 5px;
+    font-size: 14px;
+    margin: 5px;
 }
 
 .price__description--strong {
-  color: #f51fae;
+    color: #f51fae;
 }

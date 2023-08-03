@@ -1,35 +1,35 @@
 .title {
-  font-size: 50px;
-  color: #f761c5;
-  margin-top: 100px;
-  margin-bottom: 0;
+    font-size: 50px;
+    color: #f761c5;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
 
 .subtitle {
-  font-size: 30px;
-  color: white;
-  margin: 50px;
+    font-size: 30px;
+    color: white;
+    margin: 50px;
 }
 
 .title__list {
-  display: flex;
-  color: #919191;
-  font-size: 12px;
-  list-style: none;
-  margin-bottom: 30px;
-  padding: 0;
+    display: flex;
+    color: #919191;
+    font-size: 12px;
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0;
 }
 
 .title__item {
-  padding: 2px;
+    padding: 2px;
 }
 
 .title__link {
-  text-decoration: none;
-  color: #919191;
-  transition: 0.3s;
+    text-decoration: none;
+    color: #919191;
+    transition: 0.3s;
 }
 
 .title__link:hover {
-  color: #c4c4c4;
+    color: #c4c4c4;
 }

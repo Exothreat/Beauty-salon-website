@@ -1,88 +1,88 @@
 .footer {
-  width: 100%;
-  background-color: #202020;
-  color: white;
-  font-family: "Courgette", cursive;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    font-family: "Courgette", cursive;
 }
 
 .footer__main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 @media (max-width: 767px) {
-  .footer__main {
-    justify-content: flex-start;
-  }
+    .footer__main {
+        justify-content: flex-start;
+    }
 }
 
 .footer__section {
-  width: 240px;
-  padding: 10px 20px;
+    width: 240px;
+    padding: 10px 20px;
 }
 
 @media (max-width: 767px) {
-  .footer__section {
-    width: 220px;
-  }
+    .footer__section {
+        width: 220px;
+    }
 }
 
 .footer__paragraph {
-  margin: 5px 0;
-  display: flex;
+    margin: 5px 0;
+    display: flex;
 }
 
 .footer__title {
-  color: #f761c5;
+    color: #f761c5;
 }
 
 .footer__subtitle {
-  color: #f761c5;
-  font-weight: normal;
+    color: #f761c5;
+    font-weight: normal;
 }
 
 .footer__link {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
 }
 
 .footer__link:hover {
-  color: pink;
+    color: pink;
 }
 
 .footer__link--special {
-  padding: 0 10px;
-  border: 2px solid white;
-  border-radius: 10px;
+    padding: 0 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .footer__link--special:hover {
-  border: 2px solid #ff97a9;
-  color: #ff7189;
+    border: 2px solid #ff97a9;
+    color: #ff7189;
 }
 
 .footer__social {
-  display: flex;
+    display: flex;
 }
 
 .footer__social-link {
-  width: 45px;
-  margin: 2px;
-  display: flex;
-  justify-content: center;
+    width: 45px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__social-image {
-  width: 40px;
-  background-image: linear-gradient(180deg, #f761c5 0%, #ffffffaf 100%);
-  border-radius: 10px;
+    width: 40px;
+    background-image: linear-gradient(180deg, #f761c5 0%, #ffffffaf 100%);
+    border-radius: 10px;
 }
 
 .footer__social-image:hover {
-  background-color: #f655c1;
-  background-image: unset;
-  transition: 0.3s;
+    background-color: #f655c1;
+    background-image: unset;
+    transition: 0.3s;
 }

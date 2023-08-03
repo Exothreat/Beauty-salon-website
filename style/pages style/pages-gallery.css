@@ -1,60 +1,60 @@
 .gallery {
-  max-width: 900px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(2, 1fr);
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 .gallery__item {
-  cursor: pointer;
-  transition: 0.3s;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .gallery__item:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .gallery__image {
-  max-width: 100%;
-  border: 4px solid #f761c5;
-  border-radius: 30px;
+    max-width: 100%;
+    border: 4px solid #f761c5;
+    border-radius: 30px;
 }
 
 .photoView {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #00000086;
-  justify-content: center;
-  align-items: center;
-  z-index: 20;
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000086;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
 }
 
 .photoView__image {
-  max-height: 100%;
-  max-width: -webkit-fill-available;
-  padding: 10px;
+    max-height: 100%;
+    max-width: -webkit-fill-available;
+    padding: 10px;
 }
 
 .closeBtn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  padding: 1px 12px;
-  color: white;
-  font-size: 40px;
-  cursor: pointer;
-  border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 1px 12px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .closeBtn:hover {
-  background-color: #5a5a5ac5;
+    background-color: #5a5a5ac5;
 }

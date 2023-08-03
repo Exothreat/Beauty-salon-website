@@ -1,61 +1,61 @@
 .author {
-  max-width: 1500px;
-  border-top: 1px solid rgb(56, 56, 56);
-  padding: 20px 40px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+    max-width: 1500px;
+    border-top: 1px solid rgb(56, 56, 56);
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (min-width: 1200px) and (max-width: 1699px) {
-  .author {
-    max-width: 1100px;
-  }
+    .author {
+        max-width: 1100px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .author {
-    max-width: 1200px;
-    margin: 0 20px;
-  }
+    .author {
+        max-width: 1200px;
+        margin: 0 20px;
+    }
 }
 
 @media (max-width: 767px) {
-  .author {
-    max-width: 750px;
-    margin: 0 20px;
-    padding: 30px 10px;
-  }
+    .author {
+        max-width: 750px;
+        margin: 0 20px;
+        padding: 30px 10px;
+    }
 }
 
 .author__link {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .author__logo {
-  width: 70px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: #f761c5;
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #f761c5;
 }
 
 @keyframes change-color {
-  0% {
-    background-color: white;
-  }
-  50% {
-    background-color: #f761c5;
-  }
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #f761c5;
+    }
 }
 
 .author__logo-image {
-  width: 35px;
-  margin: 10px;
-  background-color: white;
-  animation-name: change-color;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+    width: 35px;
+    margin: 10px;
+    background-color: white;
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }

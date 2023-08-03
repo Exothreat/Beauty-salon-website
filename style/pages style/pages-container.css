@@ -1,46 +1,46 @@
 .container {
-  max-width: 1100px;
-  padding: 20px;
-  border-bottom: 2px dashed pink;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    max-width: 1100px;
+    padding: 20px;
+    border-bottom: 2px dashed pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container--last {
-  border: none;
+    border: none;
 }
 
 .container__price {
-  border: none;
-  margin-top: 0;
-  margin-bottom: 40px;
-  padding: 0;
-  text-align: center;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
 }
 
 @keyframes aboutSpecial {
-  0% {
-    color: violet;
-  }
-  25% {
-    color: red;
-  }
-  50% {
-    color: green;
-  }
-  75% {
-    color: blue;
-  }
-  100% {
-    color: orange;
-  }
+    0% {
+        color: violet;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: orange;
+    }
 }
 
 .about-special {
-  font-weight: bold;
-  animation-name: aboutSpecial;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+    font-weight: bold;
+    animation-name: aboutSpecial;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }

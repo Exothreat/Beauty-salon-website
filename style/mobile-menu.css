@@ -1,32 +1,32 @@
 .mobile__menu {
-  max-width: 300px;
-  display: none;
+    max-width: 300px;
+    display: none;
 }
 
 @media (max-width: 767px) {
-  .mobile__menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
+    .mobile__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .mobile__menu-link {
-  border: 3px solid #f761c5;
-  border-radius: 50%;
-  margin: 20px 5px;
-  margin-right: 0;
-  display: flex;
-  cursor: pointer;
+    border: 3px solid #f761c5;
+    border-radius: 50%;
+    margin: 20px 5px;
+    margin-right: 0;
+    display: flex;
+    cursor: pointer;
 }
 
 .mobile__menu-link:hover {
-  border: 3px solid #fda3df;
+    border: 3px solid #fda3df;
 }
 
 .mobile__menu-image {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
 }

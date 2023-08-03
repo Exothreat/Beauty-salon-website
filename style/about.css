@@ -1,61 +1,61 @@
 .about {
-  width: 100%;
-  height: 450px;
-  background-image: linear-gradient(90deg, pink, white);
-  display: flex;
-  margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(90deg, pink, white);
+    display: flex;
+    margin-top: 40px;
 }
 
 @media (min-width: 1000px) {
-  .about {
-    justify-content: space-between;
-  }
+    .about {
+        justify-content: space-between;
+    }
 }
 
 .about__image {
-  height: 450px;
+    height: 450px;
 }
 
 @media (max-width: 1400px) {
-  .about__image--right {
-    display: none;
-  }
+    .about__image--right {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
-  .about__image {
-    display: none;
-  }
+    .about__image {
+        display: none;
+    }
 }
 
 .about__description {
-  max-width: 600px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .about__button {
-  max-width: 210px;
-  margin: 10px;
-  background-color: #f761c5;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 18px;
-  transition: 0.3s;
+    max-width: 210px;
+    margin: 10px;
+    background-color: #f761c5;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 .about__button:hover {
-  transform: scale(1.1);
-  background-color: #f425af;
+    transform: scale(1.1);
+    background-color: #f425af;
 }
 
 .about__link {
-  cursor: pointer;
-  text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
 
-  padding: 5px;
-  color: #ffffff;
+    padding: 5px;
+    color: #ffffff;
 }
