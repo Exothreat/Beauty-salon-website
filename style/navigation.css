@@ -1,71 +1,74 @@
 .nav__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media (max-width: 767px) {
-  .nav__list {
-    display: none;
-  }
+    .nav__list {
+        display: none;
+    }
 }
 
 .nav__list-item {
-  margin: 10px;
+    margin: 10px;
 }
 
 .nav__link {
-  padding: 5px;
-  font-size: 1.2em;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  transition: 0.3s;
+    padding: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 .nav__link:hover {
-  color: #f761c5;
+    color: #f761c5;
 }
 
 .nav__link--visit {
-  font-size: 1.2em;
-  padding: 12px;
-  border: 3px solid #f761c5;
-  border-radius: 20px;
-  background-color: transparent;
-  color: #f761c5;
-  display: flex;
+    font-size: 1.2em;
+    padding: 12px;
+    border: 3px solid #f761c5;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #f761c5;
+    display: flex;
+    /* just for popUp */
+    cursor: pointer;
+    position: relative;
 }
 
 .nav__link--visit:hover {
-  color: #fda3df;
-  border: 3px solid #fda3df;
+    color: #fda3df;
+    border: 3px solid #fda3df;
 }
 
 .nav__link--visitLogo {
-  width: 20px;
+    width: 20px;
 }
 
 .nav__link--menu {
-  display: none;
-  cursor: pointer;
-  font-size: 2.5em;
-  background-color: transparent;
-  color: #f761c5;
-  padding: 0 15px;
-  border: 3px solid #f761c5;
-  border-radius: 20px;
+    display: none;
+    cursor: pointer;
+    font-size: 2.5em;
+    background-color: transparent;
+    color: #f761c5;
+    padding: 0 15px;
+    border: 3px solid #f761c5;
+    border-radius: 20px;
 }
 
 @media (max-width: 767px) {
-  .nav__link--menu {
-    display: block;
-  }
+    .nav__link--menu {
+        display: block;
+    }
 }
 
 .nav__link--visitText {
-  padding-left: 5px;
+    padding-left: 5px;
 }
