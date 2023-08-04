@@ -1,20 +1,15 @@
 .main__image {
-    background-image: url(../images/main-background.jpg);
-    background-position: center;
+    background-image: url(../images/gallery/gallery-20.jpg);
+    background-position-y: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
-}
-
-@media (min-width: 1400px) {
-    .main__image {
-        background-size: cover;
-    }
+    height: 600px;
 }
 
 @media (max-width: 767px) {
     .main__image {
         height: 300px;
+        background-position-y: center;
     }
 }
